@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 a {
   color: inherit;
   text-decoration: none;
@@ -13,6 +12,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
 
 /*Background*/
@@ -76,5 +79,85 @@ a {
 }
 
 .btn-custom:hover{
+  color: white;
+}
+
+/*Service Component*/
+
+.service-container-bg{
+  background-color: white;
+  padding-top: 100px;
+}
+
+.service-container{
+  min-height: 50vh;
+}
+
+.service-img{
+  width: 200px;
+}
+
+/*about component*/
+
+.about-container-bg{
+  background-color: white;
+}
+
+.about-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Download component*/
+
+.download-container-bg{
+  background-color: white;
+}
+
+.download-container{
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-download{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-download img{
+  width: 150px;
+}
+
+/*Contact Component*/
+
+.contact-container-bg{
+  background-color: rgb(255, 214, 175);
+}
+
+.contact-container{
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa{
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(43, 31, 20);
+  min-height: 5vh;
   color: white;
 }
