@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const ContactComponent = () => {
     return (
         <div className='contact-container-bg'>
-            <Container>
+            <Container className='contact-container'>
                 <Row>
                     <Col xs={12} md={6}>
                         <h1>MoDo</h1>
